@@ -4,4 +4,5 @@ in this course i was able to learn on how to design and implement a project, in 
 this project was divided to 4 different assignments where grew our project on each assignment
 
 # CSC363_Assignment1
+[Assignment1](https://github.com/baderhosny/CSC363_Calculator/tree/main/assignment%201)
 
