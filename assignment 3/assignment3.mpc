@@ -1,0 +1,28 @@
+// $Id: assignment2.mpc 378 2010-02-07 22:09:38Z hillj $
+
+project (assignment2) {
+  exename = assignment3
+  install = .
+ 
+  specific (make, gnuace) {
+    compile_flags += -std=c++11
+  }
+
+  Source_Files {
+    Add_Command.cpp
+    Binary_Op_Command.cpp
+    Div_Command.cpp
+    Multi_Command.cpp
+    Neg_Command.cpp
+    Mod_Command.cpp
+    Num_Command.cpp
+    Expr_Command_Factory.cpp
+    Concrete_Factory.cpp
+  }
+
+  Template_Files {
+    Array_Base.cpp
+    Array.cpp
+    Stack.cpp
+  }
+}
